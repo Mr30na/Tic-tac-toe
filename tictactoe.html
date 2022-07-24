@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.65" />
+  <title>Tic-tac-toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="popup-wrapper">
+    <div class="popup">
+      <h4>
+        game over!
+      </h4>
+      <div class="message">
+        ""
+      </div>
+      <button class="popup-close">play again</button>
+    </div>
+  </div>
+  <div id="maincontainer">
+    <div class="displayTurn">
+      <span id="turndisplayer"></span>
+      <h1 style="display: inline ;">Turn</h1>
+    </div>
+    <div class="board">
+      <button class="buttons" id="leftupcorner"></button>
+      <button class="buttons"></button>
+      <button class="buttons" id="rightupcorner"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons"></button>
+      <button class="buttons" id="leftdowncorner"></button>
+      <button class="buttons "></button>
+      <button class="buttons" id="rightdowncorner"></button>
+    </div>
+    <button id="refresh">Restart</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
