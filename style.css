@@ -124,7 +124,7 @@ button:hover {
 
 .popup-wrapper.show {
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    z-index: 1;
 }
 
 .popup {
@@ -157,13 +157,6 @@ button:hover {
     border: none;
     padding: 4px;
 }
-
-/*.popup>h4>span.popup-close:after {
-    content: "\00D7";
-    float: right;
-    cursor: pointer;
-}*/
-
 .popup>button.popup-close {
     float: right;
     margin: 15px 20px;
